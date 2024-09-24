@@ -1,0 +1,24 @@
+:8080 {
+    root * C:\Users\arif9\Desktop\projects\hello\php
+    php_fastcgi 127.0.0.1:9000
+    file_server
+
+	 header {
+		# Add your custom headers here
+		X-Custom-Header "YourValue"
+		X-Another-Header "AnotherValue"
+	}
+	
+}
+
+:443 {
+    
+    root * C:\Users\arif9\Desktop\projects\hello\php
+    php_fastcgi 127.0.0.1:9000
+    file_server
+
+    header {
+        X-Custom-Header "YourValue"
+        X-Another-Header "AnotherValue"
+    }
+}

@@ -1,0 +1,8 @@
+.idea
+.phpintel
+.vscode
+node_modules
+composer.lock
+package-lock.json
+*.log
+vendor
