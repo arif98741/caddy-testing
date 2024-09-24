@@ -1,0 +1,5 @@
+php-cgi -b 127.0.0.1:9000
+php -S 127.0.0.1:9000
+
+caddy run --config Caddyfile --adapter caddyfile  DEBUG
+caddy run

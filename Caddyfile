@@ -1,5 +1,5 @@
 :8080 {
-    root * C:\Users\arif9\Desktop\projects\hello\php
+    root * C:\Users\arif9\Desktop\projects\hello\laravel\public
     php_fastcgi 127.0.0.1:9000
     file_server
 
