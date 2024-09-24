@@ -1,5 +1,5 @@
-:8080 {
-    root * C:\Users\arif9\Desktop\projects\hello\laravel\public
+:8080 { #for php files
+    root * C:\Users\arif9\Desktop\projects\caddy\laravel
     php_fastcgi 127.0.0.1:9000
     file_server
 
@@ -10,13 +10,13 @@
 	}
 
 }
-:8081 {
+:8081 { #por for running node js app or others
     reverse_proxy localhost:3000
 }
 
 :443 {
 
-    root * C:\Users\arif9\Desktop\projects\hello\php
+    root * C:\Users\arif9\Desktop\projects\caddy\php
     php_fastcgi 127.0.0.1:9000
     file_server
 
