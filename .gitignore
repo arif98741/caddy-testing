@@ -6,3 +6,5 @@ composer.lock
 package-lock.json
 *.log
 vendor
+*/node_modules/
+*/vendor/
